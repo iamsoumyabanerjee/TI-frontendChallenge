@@ -1,0 +1,18 @@
+@import '../../styles/variables.scss';
+
+.price-container {
+  color: $matterhorn;
+  display: flex;
+  flex-direction: row;
+  &.price-sale {
+    .actual-price {
+      text-decoration: line-through;
+      margin-right: 10px;  
+    }
+    .sale-price {
+      color: $lightRed;
+      font-weight: bold;
+    }
+  }
+  
+}

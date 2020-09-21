@@ -1,0 +1,56 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`#Producs should render correctly 1`] = `
+<div
+  className="ti-products"
+>
+  <div
+    className="product-wrapper"
+  >
+    <div
+      className="container"
+      onAnimationEnd={[Function]}
+      style={
+        Object {
+          "animationDelay": "NaNms",
+        }
+      }
+    >
+      <a
+        className="product-item"
+        href="https://www.theiconic.com.au/link value"
+      >
+        <span
+          className="product-image"
+        >
+          <img
+            alt="Name"
+          />
+        </span>
+        <div
+          className="short-details"
+        >
+          <span
+            className="brand"
+          />
+          <span
+            className="name"
+          >
+            Name
+          </span>
+          <div
+            className="price-container "
+          >
+            <span
+              className="actual-price"
+            >
+              $
+              Some value
+            </span>
+          </div>
+        </div>
+      </a>
+    </div>
+  </div>
+</div>
+`;

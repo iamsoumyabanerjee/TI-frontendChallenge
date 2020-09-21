@@ -1,0 +1,19 @@
+@import '../styles/breakpoint.scss';
+@import '../styles/variables.scss';
+
+#ti-fed-challange {
+  max-width: 1200px;
+  margin: 238px auto 0;
+  padding-left: 16px;
+  padding-right: 16px;
+  padding-bottom: 16px;
+  @include viewport(medium) {
+    margin-top: 160px;
+  }
+
+  .show-more-btn {
+    display: block;
+    width: 200px;
+    margin: 20px auto 0
+  } 
+}

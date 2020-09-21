@@ -1,0 +1,33 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ShowPrice should render correctly when actual price and final price are not same 1`] = `
+<div
+  className="price-container price-sale"
+>
+  <span
+    className="actual-price"
+  >
+    $
+    100
+  </span>
+  <span
+    className="sale-price"
+  >
+    $
+    80
+  </span>
+</div>
+`;
+
+exports[`ShowPrice should render correctly when actual price and final price are same 1`] = `
+<div
+  className="price-container "
+>
+  <span
+    className="actual-price"
+  >
+    $
+    100
+  </span>
+</div>
+`;

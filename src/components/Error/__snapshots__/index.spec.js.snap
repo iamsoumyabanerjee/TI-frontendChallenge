@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`#Error should render correctly with default text 1`] = `
+<div
+  className="error"
+>
+  <p>
+    Error getting the data, please try after some time
+  </p>
+</div>
+`;
+
+exports[`#Error should render correctly with supplied text 1`] = `
+<div
+  className="error"
+>
+  <p>
+    Some content
+  </p>
+</div>
+`;
